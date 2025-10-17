@@ -16,7 +16,7 @@ body {
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background: url(../../images/pizza/background.jpg);
+  background: url(../../images/pizza/background1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../../images/pizza/background1.jpg);
+  background: url(../../images/pizza/background.jpg);
 }
 
 .content__cookies-button {
@@ -415,10 +415,10 @@ span {
 
 #timer {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 500px; 
+  height: 220px; 
   border: 6px solid var(--color-red);
-  border-radius: 50%;
+  border-radius: 12px;
   background-color: var(--color-white);
   display: flex;
   justify-content: center;
@@ -426,6 +426,8 @@ span {
   animation: timer-flash 1s infinite;
   animation-direction: alternate-reverse;
 }
+
+
 
 #timer-display {
   font-size: 32px;
@@ -568,7 +570,11 @@ span {
 .recipe-stuff:has(#recipe1-step1 .step-title:hover) .ingredient-step1,
 .recipe-stuff:has(#recipe1-step3 .step-title:hover) .ingredient-step3,
 .recipe-stuff:has(#recipe1-step4 .step-title:hover) .ingredient-step4,
-.recipe-stuff:has(#recipe1-step5 .step-title:hover) .ingredient-step5 {
+.recipe-stuff:has(#recipe1-step5 .step-title:hover) .ingredient-step5,
+.recipe-stuff:has(#recipe1-step1 .recipe-step:hover) .ingredient-step1,
+.recipe-stuff:has(#recipe1-step3 .recipe-step:hover) .ingredient-step3,
+.recipe-stuff:has(#recipe1-step4 .recipe-step:hover) .ingredient-step4,
+.recipe-stuff:has(#recipe1-step5 .recipe-step:hover) .ingredient-step5 {
   background-color: var(--color-orange);
   transform: scale(1.05);
 }
