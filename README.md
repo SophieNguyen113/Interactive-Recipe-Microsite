@@ -11,7 +11,7 @@
 - [Proposal](https://drive.google.com/file/d/1nMt_PPFEmjbtJfnGZ4TJsi9jh3DnTKn7/view?usp=sharing)
 - [Slides](https://docs.google.com/presentation/d/1Ua8W3y92xF1ePnFhUSWnnYZ2gPNYoJDH6CpZnqn8ZxU/edit?usp=sharing)
 - [Website](https://codd.cs.gsu.edu/~nnguyen177/Interactive-Recipe-Microsite/pages/homePage/index.html)
-- [Demo]()
+- [Demo](https://drive.google.com/file/d/10NbmJtx3LzVLuovdlR26kzYcxrznxkq9/view?usp=sharing)
 
 ## Project Summary:
 
